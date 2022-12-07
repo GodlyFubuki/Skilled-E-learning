@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 375px;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.top img{
+    
+}
+
+.top button{
+    background-color: #13183F;
+    color: #FFFFFF;
+    border-radius: 28px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.desc{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.desc h1{
+    color: #13183F;
+}
+.desc p{
+    color: #83869A;
+    margin-top: 1em;
+}
+.desc button{
+    border-radius: 31.5px;
+    border: transparent;
+    color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    padding: 1em 2em;
+    margin-top: 1.5em;
+}
+
+.text  {
+    width: 343px;
+    margin: 0 1em;
+    height: 120px;
+    background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #FFFFFF;
+    padding: 2em 1.6em 2em 3em ;
+    border-radius: 10px;
+}
+
+.bottom {
+    background-color: #13183F;
+    margin-top: 3em;
+    bottom: 0 ;
+    display: flex;
+    justify-content: space-between ;
+    width: 100%;
+    padding: 1em 1em;
+}
+
+.bottom button{
+    background-image: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    color: #FFFFFF;
+    padding: 0 1.5em;
+}
+
+.animation {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.animation img{
+    position: relative;
+    bottom: 1.5em;
+}
+
+.design {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.design img{
+    position: relative;
+    bottom: 1.5em;
+}
+
+.photography {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.photography img{
+    position: relative;
+    bottom: 1.5em;
+}
+
+.crypto {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.crypto img{
+    position: relative;
+    bottom: 1.5em;
+    
+}
+
+.business {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 2.5em;
+}
+
+.business img{
+    position: relative;
+    bottom: 1.5em;
+    
+}
